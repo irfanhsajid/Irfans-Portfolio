@@ -1,0 +1,34 @@
+.projects{
+    width: 45%;
+   
+    margin-bottom: 3%;
+    padding: 2%;
+  box-shadow: 2px 2px 20px 2px rgba(255, 0, 0, 0.295);
+}
+.project-img{
+    overflow: hidden;
+   
+}
+
+.project-img img{
+  height: 340px;
+   width: 100%;
+   transition: .5s;
+}
+.project-img img:hover{
+    transform: scale(1.1);
+}
+.btn-outline-danger:hover{
+    transition: .5s;
+}
+
+@media screen and (max-width:600px) {
+    .projects{
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+    }
+     .project-img img{
+        height: 280px;
+     }
+    }
