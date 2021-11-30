@@ -1,22 +1,26 @@
 .projects{
     width: 45%;
-   
+    margin: 2%;
     margin-bottom: 3%;
-    padding: 2%;
-  box-shadow: 2px 2px 20px 2px rgba(255, 0, 0, 0.295);
+   padding: 1%;
+   border-radius: 4%;
+   border-bottom: 3px solid rgba(255, 0, 0, 0.295);
+ 
 }
 .project-img{
     overflow: hidden;
-   
+    border-radius: 5%;
 }
 
 .project-img img{
-  height: 340px;
+  height: 330px;
    width: 100%;
+ object-fit: fill;
    transition: .5s;
 }
 .project-img img:hover{
     transform: scale(1.1);
+    cursor: zoom-in;
 }
 .btn-outline-danger:hover{
     transition: .5s;
@@ -31,4 +35,5 @@
      .project-img img{
         height: 280px;
      }
+    
     }

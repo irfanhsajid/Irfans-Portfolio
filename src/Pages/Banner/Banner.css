@@ -2,6 +2,12 @@
     display: flex;
     align-items: center;
 }
+.banner-container a{
+    text-decoration: none;
+}
+/* .my-name{
+    font-size: 45px;
+} */
 .left{
     margin-right: 3%;
 }
@@ -25,5 +31,9 @@
     }
     .banner-img{
         width: 70%;
+    }
+    .typed-text{
+        font-size: 1.2em;
+        text-align: center !important;
     }
 }

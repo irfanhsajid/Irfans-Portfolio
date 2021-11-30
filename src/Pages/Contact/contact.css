@@ -1,0 +1,27 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-left{
+    width: 40%;
+    
+}
+.contact-right{
+    width: 60%;
+    margin-left: 5%;
+}
+@media screen and (max-width:600px) {
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-left{
+        width: 90%;
+    }
+    .contact-right{
+        width: 90%;
+        margin-left: 0;
+    }
+}
