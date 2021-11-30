@@ -13,7 +13,7 @@ const Banner = () => {
                         <div className="py-2">
                             <h4>Hi, I'm</h4>
                             <h1 className="my-name">
-                                <span className="text-danger">Irfanul Haque Sajid</span>  </h1>
+                                <span className="text-danger" data-aos="fade-up" data-aos-duration="1000" >Irfanul Haque Sajid</span>  </h1>
                             <h2 className="typed-text">
                                 <TypeWriterEffect
                                     textStyle={{
@@ -40,12 +40,12 @@ const Banner = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aut dolor cumque veritatis fugiat sed magnam quasi, repudiandae enim totam!</p>
                         </div>
                         <a href=" https://github.com/irfanhsajid" target="_blank">
-                            <button className="btn-danger border-0 px-4 py-1 rounded-2 me-2" >GitHub</button>
+                            <button className="btn-outline-danger  px-4 py-1 rounded-2 me-2" > <i className="fab fa-github"></i> GitHub</button>
                         </a>
                         <a href=" https://www.linkedin.com/in/irfanhsajid/" target="_blank">
-                            <button className="btn-danger ms-1 border-0 px-4 py-1 rounded-2">LinkedIn</button>
+                            <button className="btn-outline-danger ms-1  px-4 py-1 rounded-2"> <i className="fab fa-linkedin"></i> Linked In</button>
                         </a>
-                        <a href={myResume} download="Irfanul_Haque_Sajid_RESUME.pdf" > <button className="btn-danger ms-2 border-0 px-4 py-1 rounded-2 mt-2">RESUME</button></a>
+                        <a href={myResume} download="Irfanul_Haque_Sajid_RESUME.pdf" > <button className="btn-outline-danger ms-2  px-4 py-1 rounded-2 mt-2"><i className="fas fa-download"></i> Resume</button></a>
                     </div>
                 </div>
                 <div className="right">

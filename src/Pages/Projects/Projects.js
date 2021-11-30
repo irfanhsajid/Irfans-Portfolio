@@ -48,11 +48,11 @@ import pandaCm3 from '../../Images/Projects SS/Panda Commerce/panda-commerce3.pn
 const Projects = () => {
     return (
         <div className="container ">
-            <h2 className="text-center my-3">My latest Projects</h2>
+            <h2 className="text-center my-3">My Latest Projects</h2>
             <p className="borde1 border-danger border-bottom d-flex mx-auto w-50"></p>
-            <div className="projects-container mt-5 row text-center g-4 justify-content-center">
+            <div id="projects" className="projects-container mt-5 row text-center g-4 justify-content-center">
                 {/* Qutir Mahal */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -87,19 +87,19 @@ const Projects = () => {
                         <h3>Qutir Mahal (MERN Stack)</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, delectus.</p>
                         <a href=" https://github.com/irfanhsajid/Qutir-Mahal--Client-Side--MERN-Project" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">ClientSide Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> ClientSide</button>
                         </a>
                         <a href=" https://qutir-mahal-mern-project.web.app/" target="_blank">
-                            <button className="btn-outline-danger border-0 ms-2  px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger  ms-2  px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
 
                         <a href=" https://github.com/irfanhsajid/Qutir-Mahal--Server-Side--MERN-Project" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">ServerSide Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1">  <i className="fas fa-code"></i> ServerSide </button>
                         </a>
                     </div>
                 </div>
                 {/* TourMania */}
-                <div className="projects  col-12 col-md-6">
+                <div className="projects  col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
 
                     <div className="project-carousel">
                         <Carousel indicators={false}>
@@ -140,19 +140,19 @@ const Projects = () => {
                         <h3>TourMania (MERN Stack)</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, delectus.</p>
                         <a href=" https://github.com/irfanhsajid/TourMania-Client-Side--MERN-Stack-tourism-site" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">ClientSide Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1">  <i className="fas fa-code"></i> ClientSide</button>
                         </a>
 
                         <a href=" https://tourmania-react-node-mongo.web.app/ " target="_blank">
-                            <button className="btn-outline-danger border-0 ms-2  px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger  ms-2  px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/TourMania-Server-Side--MERN-Stack-tourism-site" target="_blank">
-                            <button className=" btn-outline-danger server-btn ms-2 border-0 px-3 py-1 mt-2 rounded-1">ServerSide Code</button>
+                            <button className=" btn-outline-danger server-btn ms-2  px-3 py-1 mt-2 rounded-1">  <i className="fas fa-code"></i> ServerSide </button>
                         </a>
                     </div>
                 </div>
                 {/* MedSphere the Healthcare */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -178,16 +178,16 @@ const Projects = () => {
                         <h3>MedSphere (React UI) </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://medsphere-the-healthcare-site.web.app/" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/MedSphere-healthcare-site-using-firebase-authentication-and-react-router" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
 
                 {/* Irfans Edu care */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -218,16 +218,16 @@ const Projects = () => {
                         <h3>Irfans Edu Care (React UI) </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://irfans-edu-care.netlify.app/" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Irfans-Edu-care---React-Router-and-Rest-API" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
 
                 {/* Macbook Cart */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -247,15 +247,15 @@ const Projects = () => {
                         <h3>MackBook Cart (Basic JS) </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://mackbook-pro-cart-irfanhsajid.netlify.app/" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/MacBook-Pro-Shopping-Cart-by-Basic-JS" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
                 {/* Honda CBR */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -282,15 +282,15 @@ const Projects = () => {
                         <h3> Honda CBR (Bootstrap 5) </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://irfanhsajid.github.io/Honda-CBR-Responsive-Page-Bootstrap-5/" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Honda-CBR-Responsive-Page-Bootstrap-5" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
                 {/* Copa America 2021 */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -317,15 +317,15 @@ const Projects = () => {
                         <h3>Copa America 2021 </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://irfanhsajid.github.io/Responsive_football_site-using-HTML-and-CSS/index.html" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Responsive_football_site-using-HTML-and-CSS" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
                 {/* The FoodZone restaurent */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -352,15 +352,15 @@ const Projects = () => {
                         <h3>The FoodZone Restaurent </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://irfanhsajid.github.io/food-zone-project--using-html-css/" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/food-zone-project--using-html-css" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
                 {/* Panda Commerce BootStrap */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -387,15 +387,15 @@ const Projects = () => {
                         <h3>Panda Commerce (Bootstrap) </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://irfanhsajid.github.io/Panda-Commerce-via-Bootstrap-/" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Panda-Commerce-via-Bootstrap-" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>
                 {/* leader Board CSS */}
-                <div className="projects col-12 col-md-6">
+                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000" >
                     <div className="project-carousel">
                         <Carousel indicators={false}>
                             <Carousel.Item interval={1000}>
@@ -418,10 +418,10 @@ const Projects = () => {
                         <h3> LeaderBoard CSS </h3>
                         <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
                         <a href=" https://irfanhsajid.github.io/leader-board-responsive-site--CSS3-/index.html" target="_blank">
-                            <button className="btn-outline-danger  border-0 px-3 py-1 rounded-1">Live Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe"></i> Preview</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/leader-board-responsive-site--CSS3-" target="_blank">
-                            <button className=" btn-outline-danger ms-2 border-0 px-3 py-1 rounded-1">GitHub Code</button>
+                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code"></i> GitHub</button>
                         </a>
                     </div>
                 </div>

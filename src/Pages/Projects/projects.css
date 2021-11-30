@@ -4,7 +4,7 @@
     margin-bottom: 3%;
    padding: 1%;
    border-radius: 4%;
-   border-bottom: 3px solid rgba(255, 0, 0, 0.295);
+   border-bottom: 3px solid #ff00004b;
  
 }
 .project-img{
@@ -22,8 +22,19 @@
     transform: scale(1.1);
     cursor: zoom-in;
 }
+.btn-outline-danger{
+    background: transparent;
+    border: 2px solid #ff00004b;
+    color: #ffffffd3;
+}
+
 .btn-outline-danger:hover{
     transition: .5s;
+    
+}
+.btn-outline-danger i:hover{
+    transform: rotate(360deg);
+transition: .9s;
 }
 
 @media screen and (max-width:600px) {
