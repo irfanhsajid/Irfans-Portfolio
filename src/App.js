@@ -8,6 +8,7 @@ import {
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
+import MySkills from './Pages/MySkills/MySkills';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
+          <Route path="skills" element={<MySkills />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
         </Routes>

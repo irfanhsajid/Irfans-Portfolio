@@ -4,7 +4,7 @@
     margin-bottom: 3%;
    padding: 1%;
    border-radius: 4%;
-   border-bottom: 3px solid #ff00004b;
+   border-bottom: 10px double #DC3546;
  
 }
 .project-img{
@@ -24,7 +24,7 @@
 }
 .btn-outline-danger{
     background: transparent;
-    border: 2px solid #ff00004b;
+    border: 2px double #DC3546;
     color: #ffffffd3;
 }
 
@@ -39,7 +39,7 @@ transition: .9s;
 
 @media screen and (max-width:600px) {
     .projects{
-        width: 100%;
+        width: 95%;
         margin-right: 0%;
         margin-bottom: 3%;
     }

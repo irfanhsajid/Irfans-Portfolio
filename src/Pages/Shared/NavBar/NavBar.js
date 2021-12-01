@@ -14,8 +14,9 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} className="nav-link" to="/#home">HOME</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-link" to="/#skills">SKILLS</Nav.Link>
                         <Nav.Link as={HashLink} className="nav-link" to="/#projects">PROJECTS</Nav.Link>
-                        <Nav.Link as={HashLink} className="nav-link" to="/#contact">CONTACT ME</Nav.Link>
+                        <Nav.Link as={HashLink} className="nav-link" to="/#contact">CONTACT </Nav.Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

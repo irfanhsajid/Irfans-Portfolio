@@ -10,9 +10,9 @@ function IrfansContactForm() {
     }
     return (
         <div className="container my-5 py-5">
-            <h2 className="text-center my-3">Contact With Me</h2>
-            <p className="borde1 border-danger border-bottom d-flex mx-auto w-50"></p>
-            <div id="contact" className="contact-container py-3 mt-5">
+            <h2 className="text-center">CONNECT ME</h2>
+            <p className="borde1 border-danger border-bottom d-flex mx-auto w-25"></p>
+            <div id="contact" className="contact-container py-3 ">
                 <div className="contact-left">
                     <div className="contact-text" data-aos="fade-right" data-aos-duration="1000">
                         <h2 className="text-white">About Me</h2>
@@ -23,17 +23,17 @@ function IrfansContactForm() {
 
                         </p>
                         <p>
-                            <i className="fab fa-facebook-square"> </i> Irfan H Sajid
+                            <a style={{ textDecoration: 'none', color: 'inherit' }} href=" https://www.facebook.com/irfanhsajid " target="_blank"><i className="fab fa-facebook-square me-1"> </i> Irfan H Sajid</a>
                         </p>
                         <p>
-                            <i className="fab fa-whatsapp-square"></i> +880-172-7714930
+                            <i className="fab fa-whatsapp-square me-1"></i> +880-1324-392630
                         </p>
                         <p>
-                            <i className="fas fa-envelope"></i> irfanhsajid@gmail.com
+                            <i className="fas fa-envelope me-1"></i> irfanhsajid@gmail.com
                         </p>
                     </div>
                 </div>
-                <div className="form-container contact-right ">
+                <div className="form-container contact-right" data-aos="fade-left" data-aos-duration="1000">
                     <form onSubmit={handleSubmit} className="w-100 form">
                         <input
                             className="w-100 m-2 p-2"
@@ -71,7 +71,7 @@ function IrfansContactForm() {
                             errors={state.errors}
                         />
                         <button className="w-100 btn-danger border-0  ms-2 p-2 rounded-2" type="submit" disabled={state.submitting}>
-                            <i className="fab fa-telegram-plane"></i> SEND EMAIL
+                            <i className="fas fa-paper-plane hvr-icon me-2"></i> SEND EMAIL
                         </button>
                     </form>
                 </div>
