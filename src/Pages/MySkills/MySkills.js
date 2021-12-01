@@ -8,7 +8,7 @@ import js from './Skills Icon/icons8-javascript-48.png';
 
 import react from './Skills Icon/icons8-react-native-48.png'
 import mui from './Skills Icon/icons8-material-ui-48.png'
-import redux from './Skills Icon/icons8-redux-48.png'
+import firebase from './Skills Icon/icons8-firebase-48.png'
 import nodejs from './Skills Icon/icons8-nodejs-48.png'
 import mongodb from './Skills Icon/icons8-mongodb-48.png'
 
@@ -58,13 +58,14 @@ const MySkills = () => {
                             <img src={mongodb} alt="" />
                             <h6>Mongodb</h6>
                         </div>
-                        <div>
-                            <img src={redux} alt="" />
-                            <h6>Redux</h6>
-                        </div>
+
                         <div>
                             <img src={mui} alt="" />
                             <h6>Material-Ui</h6>
+                        </div>
+                        <div>
+                            <img src={firebase} alt="" />
+                            <h6>Firebase</h6>
                         </div>
                     </div>
                 </div>

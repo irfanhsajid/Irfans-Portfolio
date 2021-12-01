@@ -45,10 +45,16 @@ import foodZone3 from '../../Images/Projects SS/Food Zone/food-zone3.png'
 import pandaCm1 from '../../Images/Projects SS/Panda Commerce/panda-commerce1.png'
 import pandaCm2 from '../../Images/Projects SS/Panda Commerce/panda-commerce2.png'
 import pandaCm3 from '../../Images/Projects SS/Panda Commerce/panda-commerce3.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+//technology images
+import html from '../MySkills/Skills Icon/icons8-html-5-48.png';
+import css from '../MySkills/Skills Icon/icons8-css3-48.png';
+import bootstrap from '../MySkills/Skills Icon/icons8-bootstrap-48.png';
+import js from '../MySkills/Skills Icon/icons8-javascript-48.png';
+import firebase from '../MySkills/Skills Icon/icons8-firebase-48.png'
+import react from '../MySkills/Skills Icon/icons8-react-native-48.png'
+import nodejs from '../MySkills/Skills Icon/icons8-nodejs-48.png'
+import mongodb from '../MySkills/Skills Icon/icons8-mongodb-48.png'
+
 
 const Projects = () => {
     return (
@@ -88,13 +94,20 @@ const Projects = () => {
                         </Carousel>
                     </div>
                     <div className="project-text my-3">
-                        <h2>Qutir Mahal (MERN Stack)</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, delectus.</p>
+                        <h1 className="project-title">Qutir Mahal</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={react} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+                            <img style={{ height: '35px' }} src={firebase} alt="" />
+                            <img style={{ height: '35px' }} src={nodejs} alt="" />
+                            <img style={{ height: '35px' }} src={mongodb} alt="" />
+                        </div>
+                        <p>Online based Pottery Selling  MERN web application </p>
                         <a href=" https://github.com/irfanhsajid/Qutir-Mahal--Client-Side--MERN-Project" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> ClientSide</button>
                         </a>
                         <a href=" https://qutir-mahal-mern-project.web.app/" target="_blank">
-                            <button className="btn-outline-danger  ms-2  px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger  ms-2  px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
 
                         <a href=" https://github.com/irfanhsajid/Qutir-Mahal--Server-Side--MERN-Project" target="_blank">
@@ -141,14 +154,21 @@ const Projects = () => {
                         </Carousel>
                     </div>
                     <div className="project-text my-3">
-                        <h2>TourMania (MERN Stack)</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, delectus.</p>
+                        <h1 className="project-title">TourMania</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={react} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+                            <img style={{ height: '35px' }} src={firebase} alt="" />
+                            <img style={{ height: '35px' }} src={nodejs} alt="" />
+                            <img style={{ height: '35px' }} src={mongodb} alt="" />
+                        </div>
+                        <p> Tour Management system MERN web application </p>
                         <a href=" https://github.com/irfanhsajid/TourMania-Client-Side--MERN-Stack-tourism-site" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1">  <i className="fas fa-code me-1"></i> ClientSide</button>
                         </a>
 
                         <a href=" https://tourmania-react-node-mongo.web.app/ " target="_blank">
-                            <button className="btn-outline-danger  ms-2  px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger  ms-2  px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/TourMania-Server-Side--MERN-Stack-tourism-site" target="_blank">
                             <button className=" btn-outline-danger server-btn ms-2  px-3 py-1 mt-2 rounded-1">  <i className="fas fa-code me-1"></i> ServerSide </button>
@@ -179,10 +199,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2>MedSphere (React UI) </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">MedSphere</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={react} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+                            <img style={{ height: '35px' }} src={firebase} alt="" />
+                        </div>
+                        <p>Doctors Clinic REACT web application </p>
                         <a href=" https://medsphere-the-healthcare-site.web.app/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/MedSphere-healthcare-site-using-firebase-authentication-and-react-router" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -219,10 +245,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2>Irfans Edu Care (React UI) </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">Irfan's EduCare</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={react} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+                            <img style={{ height: '35px' }} src={firebase} alt="" />
+                        </div>
+                        <p> Online education based REACT web application </p>
                         <a href=" https://irfans-edu-care.netlify.app/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Irfans-Edu-care---React-Router-and-Rest-API" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -248,10 +280,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2>MackBook Cart (Basic JS) </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">Mackbook Cart</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={html} alt="" />
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+                            <img style={{ height: '35px' }} src={js} alt="" />
+                        </div>
+                        <p> Simple Shopping Cart using Vanila Js </p>
                         <a href=" https://mackbook-pro-cart-irfanhsajid.netlify.app/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/MacBook-Pro-Shopping-Cart-by-Basic-JS" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -283,10 +321,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2> Honda CBR (Bootstrap 5) </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">Honda CBR</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={html} alt="" />
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+
+                        </div>
+                        <p>  Honda CBR featuring landing page </p>
                         <a href=" https://irfanhsajid.github.io/Honda-CBR-Responsive-Page-Bootstrap-5/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Honda-CBR-Responsive-Page-Bootstrap-5" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -318,10 +362,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2>Copa America 2021 </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">Copa America'21</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={html} alt="" />
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+
+                        </div>
+                        <p> Copa America 2021 featuring landing page </p>
                         <a href=" https://irfanhsajid.github.io/Responsive_football_site-using-HTML-and-CSS/index.html" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Responsive_football_site-using-HTML-and-CSS" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -353,10 +403,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2>The FoodZone Restaurent </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">FoodZone Club</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={html} alt="" />
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+
+                        </div>
+                        <p> FoodZone Restaurent featuring landing page </p>
                         <a href=" https://irfanhsajid.github.io/food-zone-project--using-html-css/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/food-zone-project--using-html-css" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -388,10 +444,16 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2>Panda Commerce (Bootstrap) </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">Panda Commerce</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={html} alt="" />
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+
+                        </div>
+                        <p> E-commerce based landing page </p>
                         <a href=" https://irfanhsajid.github.io/Panda-Commerce-via-Bootstrap-/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/Panda-Commerce-via-Bootstrap-" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
@@ -419,10 +481,15 @@ const Projects = () => {
                     </div>
 
                     <div className="project-text my-3">
-                        <h2> LeaderBoard CSS </h2>
-                        <p>Nostrum reiciendis exercitationem voluptate voluptatibus eligendi odio deserunt ab hic!</p>
+                        <h1 className="project-title">Leader Board</h1>
+                        <div className="d-flex flex-wrap justify-content-around my-4">
+                            <img style={{ height: '35px' }} src={html} alt="" />
+                            <img style={{ height: '35px' }} src={css} alt="" />
+                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
+                        </div>
+                        <p> Onlice Course and Instructors featuring landing page </p>
                         <a href=" https://irfanhsajid.github.io/leader-board-responsive-site--CSS3-/index.html" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Preview</button>
+                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
                         </a>
                         <a href=" https://github.com/irfanhsajid/leader-board-responsive-site--CSS3-" target="_blank">
                             <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>

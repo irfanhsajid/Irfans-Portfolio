@@ -9,7 +9,10 @@ import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
 import MySkills from './Pages/MySkills/MySkills';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function App() {
   return (
     <div className="App">

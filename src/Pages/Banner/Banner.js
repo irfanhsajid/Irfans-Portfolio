@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 const Banner = () => {
+
     return (
         <div div className="py-5">
             <div className="container banner-container ">
@@ -42,7 +43,8 @@ const Banner = () => {
 
                             </h2>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aut dolor cumque veritatis fugiat sed magnam quasi, repudiandae enim totam!</p>
+                            <p>" I love what I do and I do what my clients love. Wish to work with all awesome clients around the world to create thoughtful and purposeful websites. " <br /> <i>--irfan h sajid</i>
+                            </p>
                         </div>
                         <a href=" https://github.com/irfanhsajid" target="_blank">
                             <button className="btn-outline-danger  px-4 py-1 rounded-2 me-1" > <i className="fab fa-github me-1"></i> GitHub</button>
