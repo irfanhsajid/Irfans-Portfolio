@@ -31,8 +31,6 @@ import footballSite3 from '../../Images/Projects SS/Football Site/football-site3
 import macbook1 from '../../Images/Projects SS/MackBook/mackbook-pro1.png'
 import macbook2 from '../../Images/Projects SS/MackBook/mackbook-pro2.png'
 
-import leader1 from '../../Images/Projects SS/Leader Board/leaderboard1.png'
-import leader2 from '../../Images/Projects SS/Leader Board/leaderboard2.png'
 
 import hondaCbr1 from '../../Images/Projects SS/Honda-CBR/honda-cbr1.png'
 import hondaCbr2 from '../../Images/Projects SS/Honda-CBR/honda-cbr2.png'
@@ -42,9 +40,6 @@ import foodZone1 from '../../Images/Projects SS/Food Zone/food-zone1.png'
 import foodZone2 from '../../Images/Projects SS/Food Zone/food-zone2.png'
 import foodZone3 from '../../Images/Projects SS/Food Zone/food-zone3.png'
 
-import pandaCm1 from '../../Images/Projects SS/Panda Commerce/panda-commerce1.png'
-import pandaCm2 from '../../Images/Projects SS/Panda Commerce/panda-commerce2.png'
-import pandaCm3 from '../../Images/Projects SS/Panda Commerce/panda-commerce3.png'
 //technology images
 import html from '../MySkills/Skills Icon/icons8-html-5-48.png';
 import css from '../MySkills/Skills Icon/icons8-css3-48.png';
@@ -419,83 +414,9 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                {/* Panda Commerce BootStrap */}
-                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" >
-                    <div className="project-carousel">
-                        <Carousel indicators={false}>
-                            <Carousel.Item interval={1000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={pandaCm1} alt="" />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item interval={1500} >
-                                <div className="project-img">
-                                    <img className="img-fluid" src={pandaCm2} alt="" />
-                                </div>
-
-                            </Carousel.Item>
-                            <Carousel.Item interval={1800}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={pandaCm3} alt="" />
-                                </div>
-                            </Carousel.Item>
-
-                        </Carousel>
-                    </div>
-
-                    <div className="project-text my-3">
-                        <h1 className="project-title">Panda Commerce</h1>
-                        <div className="d-flex flex-wrap justify-content-around my-4">
-                            <img style={{ height: '35px' }} src={html} alt="" />
-                            <img style={{ height: '35px' }} src={css} alt="" />
-                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
-
-                        </div>
-                        <p> E-commerce based landing page </p>
-                        <a href=" https://irfanhsajid.github.io/Panda-Commerce-via-Bootstrap-/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
-                        </a>
-                        <a href=" https://github.com/irfanhsajid/Panda-Commerce-via-Bootstrap-" target="_blank">
-                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
-                        </a>
-                    </div>
-                </div>
-                {/* leader Board CSS */}
-                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" >
-                    <div className="project-carousel">
-                        <Carousel indicators={false}>
-                            <Carousel.Item interval={1000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={leader1} alt="" />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item interval={1500} >
-                                <div className="project-img">
-                                    <img className="img-fluid" src={leader2} alt="" />
-                                </div>
-
-                            </Carousel.Item>
 
 
-                        </Carousel>
-                    </div>
 
-                    <div className="project-text my-3">
-                        <h1 className="project-title">Leader Board</h1>
-                        <div className="d-flex flex-wrap justify-content-around my-4">
-                            <img style={{ height: '35px' }} src={html} alt="" />
-                            <img style={{ height: '35px' }} src={css} alt="" />
-                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
-                        </div>
-                        <p> Onlice Course and Instructors featuring landing page </p>
-                        <a href=" https://irfanhsajid.github.io/leader-board-responsive-site--CSS3-/index.html" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
-                        </a>
-                        <a href=" https://github.com/irfanhsajid/leader-board-responsive-site--CSS3-" target="_blank">
-                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
 
