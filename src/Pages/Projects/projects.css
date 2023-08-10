@@ -4,7 +4,7 @@
     margin-bottom: 3%;
    padding: 1%;
    border-radius: 4%;
-   border-bottom: 10px double #DC3546;
+   border-bottom: 10px double #fffa;
  
 }
 .project-img{
@@ -23,13 +23,13 @@
     cursor: zoom-in;
 }
 .project-title{
-    color: #DC3546;
+    color: #fffa;
     font-weight: bold;
     
 }
 .btn-outline-danger{
     background: transparent;
-    border: 2px double #DC3546;
+    border: 2px double #A4371D ;
     color: #ffffffd3;
 }
 

@@ -6,7 +6,7 @@ html,body{
   overflow-x: hidden;
 }
 .App{
-  background: black;
-  color: #f0f8ffa8;
+  background: radial-gradient(circle, #031d2e, #000d1a);
+  color:#fffa;
   font-family: 'Titillium Web', sans-serif;
 }

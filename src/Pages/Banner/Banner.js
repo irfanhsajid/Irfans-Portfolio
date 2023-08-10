@@ -2,7 +2,7 @@ import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import './Banner.css';
 import Particles from "react-tsparticles";
-import img from '../../Images/sajid_blackwhite.png'
+import img from '../../Images/irfans_webDp.jpg'
 import myResume from '../../Files/Irfanul_Haque_Sajid_RESUME.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -100,6 +100,18 @@ const Banner = () => {
                     detectRetina: true,
                 }}
             />
+
+
+
+
+
+
+
+
+
+
+
+
             <div div className="py-5">
                 <div className="container banner-container ">
                     <div className="left">
@@ -108,7 +120,7 @@ const Banner = () => {
                             <div className="py-2">
                                 <h4>Hi, I'm</h4>
                                 <h1 className="my-name">
-                                    <span className="text-danger" data-aos="fade-down-right" >Irfanul Haque Sajid</span>  </h1>
+                                    <span className="" data-aos="fade-down-right" >Irfanul Haque Sajid</span>  </h1>
                                 <h2 className="typed-text">
                                     <TypeWriterEffect
                                         textStyle={{
