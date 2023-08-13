@@ -2,7 +2,7 @@ import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import './Banner.css';
 import Particles from "react-tsparticles";
-import img from '../../Images/irfans_webDp.jpg'
+import img from '../../Images/irfans_dp.jpg'
 import myResume from '../../Files/Irfanul_Haque_Sajid_RESUME.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
