@@ -6,27 +6,17 @@ import qutirMahal from '../../Images/Projects SS/Qutir-Mahal/qutir-mahal.png';
 import qutirMahal1 from '../../Images/Projects SS/Qutir-Mahal/qutir-mahal1.png';
 import qutirMahal2 from '../../Images/Projects SS/Qutir-Mahal/qutir-mahal2.png';
 import qutirMahal3 from '../../Images/Projects SS/Qutir-Mahal/qutir-mahal3.png';
-import qutirMahal4 from '../../Images/Projects SS/Qutir-Mahal/qutir-mahal4.png';
+
 
 import tourMania from '../../Images/Projects SS/TourMania/tourMania.png';
 import tourMania1 from '../../Images/Projects SS/TourMania/tourMania1.png';
 import tourMania2 from '../../Images/Projects SS/TourMania/tourMania2.png';
 import tourMania3 from '../../Images/Projects SS/TourMania/tourMania3.png';
-import tourMania4 from '../../Images/Projects SS/TourMania/tourMania4.png';
-import tourMania5 from '../../Images/Projects SS/TourMania/tourMania5.png';
+
 
 import medSphere1 from '../../Images/Projects SS/MedSphere/medsphere1.png';
 import medSphere2 from '../../Images/Projects SS/MedSphere/medsphere2.png';
-import medSphere3 from '../../Images/Projects SS/MedSphere/medsphere3.png';
 
-import educare1 from '../../Images/Projects SS/Irfans Edu Care/irfans-edu-care1.png'
-import educare2 from '../../Images/Projects SS/Irfans Edu Care/irfans-edu-care2.png'
-import educare3 from '../../Images/Projects SS/Irfans Edu Care/irfans-edu-care3.png'
-import educare4 from '../../Images/Projects SS/Irfans Edu Care/irfans-edu-care4.png'
-
-import footballSite1 from '../../Images/Projects SS/Football Site/football-site1.png'
-import footballSite2 from '../../Images/Projects SS/Football Site/football-site2.png'
-import footballSite3 from '../../Images/Projects SS/Football Site/football-site3.png'
 
 import macbook1 from '../../Images/Projects SS/MackBook/mackbook-pro1.png'
 import macbook2 from '../../Images/Projects SS/MackBook/mackbook-pro2.png'
@@ -81,11 +71,7 @@ const Projects = () => {
                                     <img className="img-fluid" src={qutirMahal3} alt="" />
                                 </div>
                             </Carousel.Item>
-                            <Carousel.Item interval={2000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={qutirMahal4} alt="" />
-                                </div>
-                            </Carousel.Item>
+
                         </Carousel>
                     </div>
                     <div className="project-text my-3">
@@ -136,16 +122,7 @@ const Projects = () => {
                                     <img className="img-fluid" src={tourMania3} alt="" />
                                 </div>
                             </Carousel.Item>
-                            <Carousel.Item interval={2000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={tourMania4} alt="" />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item interval={2000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={tourMania5} alt="" />
-                                </div>
-                            </Carousel.Item>
+
                         </Carousel>
                     </div>
                     <div className="project-text my-3">
@@ -183,12 +160,6 @@ const Projects = () => {
                                 <div className="project-img">
                                     <img className="img-fluid" src={medSphere2} alt="" />
                                 </div>
-
-                            </Carousel.Item>
-                            <Carousel.Item interval={1800}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={medSphere3} alt="" />
-                                </div>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -211,51 +182,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* Irfans Edu care */}
-                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" >
-                    <div className="project-carousel">
-                        <Carousel indicators={false}>
-                            <Carousel.Item interval={1000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={educare1} alt="" />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item interval={1500} >
-                                <div className="project-img">
-                                    <img className="img-fluid" src={educare2} alt="" />
-                                </div>
 
-                            </Carousel.Item>
-                            <Carousel.Item interval={1800}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={educare3} alt="" />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item interval={2000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={educare4} alt="" />
-                                </div>
-                            </Carousel.Item>
-                        </Carousel>
-                    </div>
-
-                    <div className="project-text my-3">
-                        <h1 className="project-title">Irfan's EduCare</h1>
-                        <div className="d-flex flex-wrap justify-content-around my-4">
-                            <img style={{ height: '35px' }} src={css} alt="" />
-                            <img style={{ height: '35px' }} src={react} alt="" />
-                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
-                            <img style={{ height: '35px' }} src={firebase} alt="" />
-                        </div>
-                        <p> Online education based REACT web application </p>
-                        <a href=" https://irfans-edu-care.netlify.app/" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
-                        </a>
-                        <a href=" https://github.com/irfanhsajid/Irfans-Edu-care---React-Router-and-Rest-API" target="_blank">
-                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
-                        </a>
-                    </div>
-                </div>
 
                 {/* Macbook Cart */}
                 <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" >
@@ -332,47 +259,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                {/* Copa America 2021 */}
-                <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" >
-                    <div className="project-carousel">
-                        <Carousel indicators={false}>
-                            <Carousel.Item interval={1000}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={footballSite1} alt="" />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item interval={1500} >
-                                <div className="project-img">
-                                    <img className="img-fluid" src={footballSite2} alt="" />
-                                </div>
 
-                            </Carousel.Item>
-                            <Carousel.Item interval={1800}>
-                                <div className="project-img">
-                                    <img className="img-fluid" src={footballSite3} alt="" />
-                                </div>
-                            </Carousel.Item>
-
-                        </Carousel>
-                    </div>
-
-                    <div className="project-text my-3">
-                        <h1 className="project-title">Copa America'21</h1>
-                        <div className="d-flex flex-wrap justify-content-around my-4">
-                            <img style={{ height: '35px' }} src={html} alt="" />
-                            <img style={{ height: '35px' }} src={css} alt="" />
-                            <img style={{ height: '35px' }} src={bootstrap} alt="" />
-
-                        </div>
-                        <p> Copa America 2021 featuring landing page </p>
-                        <a href=" https://irfanhsajid.github.io/Responsive_football_site-using-HTML-and-CSS/index.html" target="_blank">
-                            <button className="btn-outline-danger   px-3 py-1 rounded-1"><i className="fas fa-globe me-1"></i> Live Site</button>
-                        </a>
-                        <a href=" https://github.com/irfanhsajid/Responsive_football_site-using-HTML-and-CSS" target="_blank">
-                            <button className=" btn-outline-danger ms-2  px-3 py-1 rounded-1"> <i className="fas fa-code me-1"></i> GitHub</button>
-                        </a>
-                    </div>
-                </div>
                 {/* The FoodZone restaurent */}
                 <div className="projects col-12 col-md-6" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" >
                     <div className="project-carousel">

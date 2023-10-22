@@ -21,7 +21,7 @@
     text-align: justify;
     text-justify: inter-word;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:780px) {
     .contact-container{
         flex-direction: column;
     }

@@ -9,13 +9,13 @@
 }
 .project-img{
     overflow: hidden;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .project-img img{
   height: 330px;
    width: 100%;
- object-fit: fill;
+ object-fit:fill;
    transition: .5s;
 }
 .project-img img:hover{
@@ -42,7 +42,7 @@
 transition: .9s;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:780px) {
     .projects{
         width: 95%;
         margin-right: 0%;

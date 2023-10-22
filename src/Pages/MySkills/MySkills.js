@@ -18,7 +18,7 @@ const MySkills = () => {
             <h2 className="text-center">MY SKILLS  </h2>
 
             <div className="row my-3">
-                <div className="col-12 col-sm-6 my-3 p-3 " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" >
+                <div className="col-12 col-md-6 my-3 p-3 " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" >
                     <div className="d-flex flex-wrap justify-content-between text-center skills-left">
                         <div>
                             <img src={html} alt="" />
@@ -43,7 +43,7 @@ const MySkills = () => {
                         <div className="border-danger border border-1 border-right"></div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-6 my-3 p-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0" >
+                <div className="col-12 col-md-6 my-3 p-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0" >
                     <div className="d-flex flex-wrap justify-content-between text-center">
                         <div className="border-danger border border-1 border-left"></div>
                         <div>

@@ -2,7 +2,6 @@ import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import './Banner.css';
 import Particles from "react-tsparticles";
-import img from '../../Images/irfans_dp.jpg'
 import myResume from '../../Files/Irfanul_Haque_Sajid_RESUME.pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -22,6 +21,7 @@ const Banner = () => {
 
     return (
         <div>
+
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -59,7 +59,7 @@ const Banner = () => {
                     particles: {
                         color: {
                             value: "#ffffff",
-                            opacity: 0.5,
+                            opacity: 0.1,
                         },
                         links: {
                             color: "#ffffff",
@@ -100,18 +100,6 @@ const Banner = () => {
                     detectRetina: true,
                 }}
             />
-
-
-
-
-
-
-
-
-
-
-
-
             <div div className="py-5">
                 <div className="container banner-container ">
                     <div className="left">
@@ -158,7 +146,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="right" data-aos="fade-up-left" data-aos-duration="1000" >
-                        <img src={img} alt="" className="img-fluid banner-img" />
+                        <img src="https://i.ibb.co/S08yHFW/irfans-web-Dp2-1.jpg" alt="" className="img-fluid banner-img" />
                     </div>
                 </div>
             </div>
