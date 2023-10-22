@@ -27,17 +27,17 @@
     font-weight: bold;
     
 }
-.btn-outline-danger{
+.btn-outline-danger,.resume-btn:hover{
     background: transparent;
     border: 2px double #A4371D ;
     color: #ffffffd3;
 }
 
-.btn-outline-danger:hover{
+.resume-btn:hover, .btn-outline-danger:hover{
     transition: .5s;
     
 }
-.btn-outline-danger i:hover{
+.btn-outline-danger i:hover, .resume-btn i:hover{
     transform: rotate(360deg);
 transition: .9s;
 }

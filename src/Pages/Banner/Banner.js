@@ -142,7 +142,7 @@ const Banner = () => {
                             <a href=" https://www.linkedin.com/in/irfanhsajid/" target="_blank">
                                 <button className="btn-outline-danger ms-1  px-4 py-1 rounded-2"> <i className="fab fa-linkedin me-1"></i> Linked In</button>
                             </a>
-                            <a href={myResume} download="Irfanul_Haque_Sajid_RESUME.pdf" > <button className="btn-outline-danger ms-2  px-4 py-1 rounded-2 mt-2"><i className="fas fa-download me-1"></i> Resume</button></a>
+                            <a href={myResume} download="Irfanul_Haque_Sajid_RESUME.pdf" > <button className="btn-danger resume-btn ms-2  px-4 py-1 rounded-2 mt-2"><i className="fas fa-download me-1"></i> Resume</button></a>
                         </div>
                     </div>
                     <div className="right" data-aos="fade-up-left" data-aos-duration="1000" >
